@@ -1,0 +1,37 @@
+:root{
+	--color-aqua:#00d9d9;
+	--color-titulos:#000;
+	--color-contenido: #2d2d2d;
+	--bg-header:#000;
+	--bg-footer:#222222;
+}
+body{
+	color:var(--color-contenido);
+}
+
+header{
+	background-color: var(--bg-header);
+	padding: 20px 0;
+}
+
+
+
+
+
+footer{
+	background-color: var(--bg-footer);
+	color: #888;
+	padding: 30px 0;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+}
+footer p span{
+	color: var(--color-aqua);
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
